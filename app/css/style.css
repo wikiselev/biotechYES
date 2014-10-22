@@ -590,20 +590,37 @@ Parallax
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 3px solid #fff;
     border-radius: 50%;
     font-size: 40px;
     color: #fff;
-    background: 0 0;
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+    /*background: 0 0;*/
+/*    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;*/
+    /*transition: background .3s ease-in-out;*/
 }
 
+.btn-circle-dark {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 3px solid #666;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #666;
+    /*background: 0 0;*/
+/*    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;*/
+    /*transition: background .3s ease-in-out;*/
+}
+
+/*
 .btn-circle.btn-dark {
-    border: 2px solid #666;
+    border: 3px solid #666;
     color: #666;
 }
+*/
 
 
 .btn-circle:hover,
@@ -612,7 +629,7 @@ Parallax
     color: #fff;
     background: rgba(255,255,255,.1);
 }
-
+/*
 .btn-circle.btn-dark :hover,
 .btn-circle.btn-dark :focus {
     outline: 0;
@@ -624,6 +641,7 @@ Parallax
 .btn-circle.btn-dark :focus i{
     color: #999;
 }
+*/
 
 .page-scroll .btn-circle i.animated {
     -webkit-transition-property: -webkit-transform;
@@ -633,6 +651,17 @@ Parallax
 }
 
 .page-scroll .btn-circle:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+.page-scroll .btn-circle-dark:hover i.animated {
     -webkit-animation-name: pulse;
     -moz-animation-name: pulse;
     -webkit-animation-duration: 1.5s;
