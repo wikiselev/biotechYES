@@ -42,21 +42,21 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
+    background: #2EFE2E;
 }
 
 .method-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 100px;
     text-align: center;
-    background: #E0ECF8;
+    background: #2E64FE;
 }
 
 .services-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 130px;
     text-align: center;
-    background: #F5ECCE;
+    background: #FF8000;
 }
 
 .contact-section {
