@@ -1,10 +1,16 @@
-1	-5000
-2	-644600
-3	-596940
-4	-123780
-5	809380
-6	2242540
-7	4175700
-8	6608860
-9	9542020
-10	12975180
+1	0	net-profit
+2	10000	net-profit
+3	464380	net-profit
+4	922360	net-profit
+5	1838320	net-profit
+6	3670240	net-profit
+7	7334080	net-profit
+8	14661760	net-profit
+1	5170	net-expenses
+2	87100	net-expenses
+3	822500	net-expenses
+4	1087350	net-expenses
+5	1660330	net-expenses
+6	2651290	net-expenses
+7	4533220	net-expenses
+8	8347060	net-expenses
